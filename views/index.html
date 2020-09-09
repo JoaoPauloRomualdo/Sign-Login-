@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <title>Logon / Sign in</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#">Login</a></li>
+
+                        <li><a href="#" id="btn-modal">Sign-in</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div class="text">
+                <h1>Login</h1>
+                <p>
+                    Informe seu usario e senha para acessar nossa aplicação
+                </p>
+            </div>
+
+            <div class="col-login">
+
+                <form action="" id="form-login">
+                    <input type="email" placeholder="Informe seu email cadastrado">
+                    <input type="password" placeholder="Digite sua senha">
+                    <button type="submit">Logar</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="col-background">
+            <img src="../assets/image/undraw_welcome_cats_thqn.svg" alt="">
+        </div>
+    </div>
+
+    <div id="modal" class="hide">
+        <a href="#">
+            Fechar
+        </a>
+        <div class="text-modal">
+            <h1>Sign in</h1>
+            <p>
+                Faça o seu cadastro e tenha acesso total em nossa aplicação
+            </p>
+        </div>
+
+        <form action="">
+            <input type="text" id="nome" placeholder="Digite seu nome de usuario">
+            <input type="email" placeholder="Informe seu melhor email">
+            <input type="password" placeholder="Informe uma senha">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <script src="../assets/script/main.js"></script>
+</body>
+
+</html>
